@@ -13,3 +13,7 @@
 body {
   font-family: "Itim", cursive;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
