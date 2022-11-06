@@ -20,185 +20,324 @@
     ></script>
     <title>Cat A Wabb</title>
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <div class="container-fluid">
-        <div
-          class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2"
-        >
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="member.html">Member</a>
-            </li>
-          </ul>
-        </div>
-        <div class="mx-auto order-0">
-          <a class="navbar-brand mx-auto" href="index.html"
-            >Cat A Wabb Project
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target=".dual-collapse2"
+    <section id="navbar">
+      <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+        <div class="container-fluid">
+          <div
+            class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="member.html">Team Member</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#footer">Footer</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="index.html"
+              >Cat A Wabb Project
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target=".dual-collapse2"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">Feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="payment.html">Payment</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="features.html">Features</a>
-            </li>
-          </ul>
+      </nav>
+    </section>
+
+    <!-- Headder -->
+    <section id="headder">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Hello we made form Cat A Wabb Team.</h1>
+            <button
+              type="button"
+              class="btn btn-custom-1 btn-apple btn-lg"
+              onclick="window.open('https://www.apple.com/app-store/', '_blank')"
+            >
+              <i class="fa-brands fa-apple fa-lg"> Download</i>
+            </button>
+            <button
+              type="button"
+              class="btn btn-custom-2 btn-playstore btn-lg"
+              onclick="window.open('https://play.google.com/', '_blank')"
+            >
+              <i class="fa-brands fa-google-play fa-lg"> Download</i>
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="iphone"
+              src="image/iphone.png"
+              alt="iphone-mockup"
+              width="25%"
+            />
+          </div>
         </div>
       </div>
-    </nav>
+    </section>
 
-    <div class="d-flex justify-content-between">
-      <div class="headder">
-        <h1>Hello we made form Cat A Wabb Team.</h1>
-        <button type="button" class="btn btn-secondary btn-apple">
-          <i class="fa-brands fa-apple fa-lg"> Download</i>
-        </button>
-        <button type="button" class="btn btn-dark btn-playstore">
-          <i class="fa-brands fa-google-play fa-lg"> Download</i>
-        </button>
-      </div>
-      <div class="iphone">
-        <img src="image/iphone.png" alt="iphone-mockup" width="25%" />
-      </div>
-    </div>
+    <!-- Features -->
 
-    <div class="feature">
+    <section id="feature">
       <h1>Feature</h1>
-      <br />
-
-      <h3>อยู่ไกลแค่ไหนก็ใกล้ได้แค่ปลายนิ้ว</h3>
-      <p>ติดตามดูชีวิตน้องแมวได้แม้อยู่ไกลเพียงใช้แอปเรา</p>
-
-      <h3>พูดคุยกับคนดูน้องๆ</h3>
-      <p>ฟีเจอร์แชทที่สามารถติดตามพูดคุยกับพี่ๆที่ดูแลน้อง</p>
-
-      <h3>การแจ้งเตือน!</h3>
-      <p>
-        แจ้งเตือนให้พี่เลี้ยงถ่ายรูปและอธิบายการใช้ชีวิตน้องๆในแต่ละช่วงเวลาของวัน
-      </p>
-
-      <h3>ชำระเงินสะดวก</h3>
-      <p>การชำระเงินแสนสะดวกกับโปรโมชั่นเพื่อดูแลน้องแมวของคุณในแต่ละแพ็คเกจ</p>
-    </div>
-
-    <div class="slide-container swiper">
-      <div class="slide-content">
-        <div class="card-wrapper swiper-wrapper">
-          <div class="card swiper-slide">
-            <div class="image-content">
-              <span class="overlay"></span>
-
-              <div class="card-image">
-                <img src="image/avatar1.jpg" alt="" class="card-img" />
-              </div>
+      <div class="feature-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3">
+              <i class="icon fa-solid fa-mobile-screen-button fa-4x"></i>
+              <h3>อยู่ไกลแค่ไหนก็ใกล้ได้แค่ปลายนิ้ว</h3>
+              <p>ติดตามดูชีวิตน้องแมวได้แม้อยู่ไกลเพียงใช้แอปเรา</p>
             </div>
-
-            <div class="card-content">
-              <h2 class="name">Mero</h2>
-              <p class="description">
-                The lorem text the section that contains header with having open
-                functionality. Lorem dolor sit amet consectetur adipisicing
-                elit.
+            <div class="col-lg-3">
+              <i class="icon fa-solid fa-comment fa-4x"></i>
+              <h3>พูดคุยกับคนดูน้องๆ</h3>
+              <p>ฟีเจอร์แชทที่สามารถติดตามพูดคุยกับพี่ๆที่ดูแลน้อง</p>
+            </div>
+            <div class="col-lg-3">
+              <i class="icon fa-solid fa-bell fa-4x"></i>
+              <h3>การแจ้งเตือน!</h3>
+              <p>
+                แจ้งเตือนให้พี่เลี้ยงถ่ายรูปและอธิบายการใช้ชีวิตน้องๆในแต่ละช่วงเวลาของวัน
               </p>
-
-              <button class="button">View More</button>
             </div>
-          </div>
-          <div class="card swiper-slide">
-            <div class="image-content">
-              <span class="overlay"></span>
-
-              <div class="card-image">
-                <img src="image/avatar2.jpg" alt="" class="card-img" />
-              </div>
-            </div>
-
-            <div class="card-content">
-              <h2 class="name">Rolet</h2>
-              <p class="description">
-                The lorem text the section that contains header with having open
-                functionality. Lorem dolor sit amet consectetur adipisicing
-                elit.
+            <div class="col-lg-3">
+              <i class="icon fa-solid fa-credit-card fa-4x"></i>
+              <h3>ชำระเงินสะดวก</h3>
+              <p>
+                การชำระเงินแสนสะดวกกับโปรโมชั่นเพื่อดูแลน้องแมวของคุณในแต่ละแพ็คเกจ
               </p>
-
-              <button class="button">View More</button>
-            </div>
-          </div>
-          <div class="card swiper-slide">
-            <div class="image-content">
-              <span class="overlay"></span>
-
-              <div class="card-image">
-                <img src="image/avatar3.jpg" alt="" class="card-img" />
-              </div>
-            </div>
-
-            <div class="card-content">
-              <h2 class="name">David Dell</h2>
-              <p class="description">
-                The lorem text the section that contains header with having open
-                functionality. Lorem dolor sit amet consectetur adipisicing
-                elit.
-              </p>
-
-              <button class="button">View More</button>
-            </div>
-          </div>
-          <div class="card swiper-slide">
-            <div class="image-content">
-              <span class="overlay"></span>
-
-              <div class="card-image">
-                <img src="image/avatar4.png" alt="" class="card-img" />
-              </div>
-            </div>
-
-            <div class="card-content">
-              <h2 class="name">David Dell</h2>
-              <p class="description">
-                The lorem text the section that contains header with having open
-                functionality. Lorem dolor sit amet consectetur adipisicing
-                elit.
-              </p>
-
-              <button class="button">View More</button>
-            </div>
-          </div>
-          <div class="card swiper-slide">
-            <div class="image-content">
-              <span class="overlay"></span>
-
-              <div class="card-image">
-                <img src="image/avatar5.jpg" alt="" class="card-img" />
-              </div>
-            </div>
-
-            <div class="card-content">
-              <h2 class="name">David Dell</h2>
-              <p class="description">
-                The lorem text the section that contains header with having open
-                functionality. Lorem dolor sit amet consectetur adipisicing
-                elit.
-              </p>
-
-              <button class="button">View More</button>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="swiper-button-next swiper-navBtn"></div>
-      <div class="swiper-button-prev swiper-navBtn"></div>
-      <div class="swiper-pagination"></div>
-    </div>
+    <!-- Testimonial -->
+    <section id="testimonial">
+      <small>review from clients</small>
+      <h1>Testimonial</h1>
+      <div class="slide-container swiper">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="image/avatar1.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Mero</h2>
+                <p class="description">
+                  เลี้ยงน้องไว้ที่บ้านต่างจังหวัด
+                  เรามาเรียนก็เอาน้องมาด้วยไม่ได้ เพราะหอไม่ให้เลี้ยง
+                  ก็ดูแลเขาผ่านแอพนี้ค่ะ เป็นแอพที่ดีมากๆเลยค่ะ
+                </p>
+
+                <button class="button">ดูเพิ่มเติม</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="image/avatar2.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Rolet</h2>
+                <p class="description">
+                  ชอบมากครับ ใช้งานง่าย ฟีเจอร์หลากหลายเหมาะสำหรับการใช้งาน ครบ
+                  จบ ในแอพพลิเคชั่นเดียวเลย
+                  มั่นใจที่จะฝากน้องแมวไว้กับแอพนี้เลยฮะ
+                </p>
+
+                <button class="button">ดูเพิ่มเติม</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="image/avatar3.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Shanks</h2>
+                <p class="description">
+                  เพราะได้แอปนี้เลยทำให้สามารถดูแลเขาแม้อยู่ไกลกันได้
+                  ฟีเจอร์ใช้งานง่ายดี มีบอกอตลอดว่าแต่ละช่วงเวลาน้องทำอะไร
+                  สามารถเปิดกล้องดูน้องได้ คุยกับพี่เลี้ยงได้
+                </p>
+
+                <button class="button">ดูเพิ่มเติม</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="image/avatar4.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Honey</h2>
+                <p class="description">
+                  เป็นแอพที่ดีมากเลยค่ะ เวลาฝากไว้กับโรงแรมแมว หรือ คลินิก
+                  พอมีแอพนี้ก็รู้สึกสบายใจขึ้นเลย
+                  ฟีเจอร์ต่างๆทำให้เราวางใจว่าแมวของเราจะสบายดี แนะนำเลยค่ะ
+                </p>
+
+                <button class="button">ดูเพิ่มเติม</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="image/avatar5.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Shiro</h2>
+                <p class="description">
+                  เวลาน้องไม่สบายแล้วต้องไปนอนคลินิกก็อดเป็นห่วงไม่ได้เพราะไกลหูไกลตา
+                  จะเฝ้าตลอดก็ไม่ได้ ก็ได้เจ้าตัวแอพนี้แหละที่ช่วยไว้
+                  ทำให้อุ่นใจขึ้นเยอะเลยครับ
+                </p>
+
+                <button class="button">ดูเพิ่มเติม</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="pricelist">
+      <h1>PriceList</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <i class="icon fa-solid fa-user fa-3x"></i>
+            <h3>Single room</h3>
+            <div class="pricelist-text">
+              <p>ห้องพักสำหรับน้องแมว 1 ตัว</p>
+              <p>คืนละ 250 บาท</p>
+              <p>10 คืน 2,500 บาท ลด 10% เหลือ 2,250 บาท</p>
+              <p>20 คืน 5,000 บาท ลด 20% เหลือ 4,000 บาท</p>
+              <p>30 คืน 7,500 บาท ลด 40% เหลือ 4,500 บาท</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <i class="icon fa-solid fa-user-group fa-3x"></i>
+            <h3>Standard room</h3>
+            <div class="pricelist-text">
+              <p>ห้องพักสำหรับน้องแมว 2 ตัว</p>
+              <p>คืนละ 350 บาท</p>
+              <p>10 คืน 3,500 บาท ลด 10% เหลือ 3,150 บาท</p>
+              <p>20 คืน 7,000 บาท ลด 20% เหลือ 5,600 บาท</p>
+              <p>30 คืน 10,500 บาท ลด 40% เหลือ 6,300 บาท</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <i class="icon fa-solid fa-users fa-3x"></i>
+            <h3>Family room</h3>
+            <div class="pricelist-text">
+              <p>ห้องพักสำหรับน้องแมว 1-6 ตัว</p>
+              <p>คืนละ 650 บาท</p>
+              <p>10 คืน 6,500 บาท ลด 10% เหลือ 5,850 บาท</p>
+              <p>20 คืน 13,000 บาท ลด 20% เหลือ 10,400 บาท</p>
+              <p>30 คืน 19,500 บาท ลด 40% เหลือ 11,700 บาท</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <i class="icon fa-solid fa-house fa-3x"></i>
+            <h3>The Biggest room</h3>
+            <div class="pricelist-text">
+              <p>ห้องพักสำหรับน้องแมว 1-8 ตัว</p>
+              <p>คืนละ 850 บาท</p>
+              <p>10 คืน 8,500 บาท ลด 10% เหลือ 7,650 บาท</p>
+              <p>20 คืน 17,000 บาท ลด 15% เหลือ 14,450 บาท</p>
+              <p>30 คืน 25,500 ลด 25% เหลือ 19,125 บาท</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        type="button"
+        class="btn btn-custom-1 btn-rounded btn-lg"
+        onclick="window.open('https://github.com/DreamX69/Startup-Project-Cat-A-Wabb', '_blank')"
+      >
+        ดูเพิ่มเติม
+      </button>
+      <button
+        type="button"
+        class="btn btn-custom-2 btn-rounded btn-lg"
+        onClick="location.href='payment.html'"
+      >
+        ซื้อแพ็คเกจ
+      </button>
+    </section>
+
+    <footer id="footer">
+      <a href="#navbar" class="footer__logo">
+        <img class="logo" src="image/catawabbLogo.png" alt="Logo" />
+      </a>
+      <div class="permalinks">
+        <h1>Contact Us</h1>
+      </div>
+
+      <div class="footer__socials">
+        <a href="https://facebook.com" target="_blank">
+          <i class="fa-brands fa-facebook fa-3x"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <i class="fa-brands fa-instagram fa-3x"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <i class="fa-brands fa-twitter fa-3x"></i>
+        </a>
+      </div>
+
+      <div class="footer__copyright">
+        <small class="footer__copyright"
+          >&copy; Cat A Wabb Team. ALL rights reserved.</small
+        >
+      </div>
+    </footer>
 
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/index.js"></script>

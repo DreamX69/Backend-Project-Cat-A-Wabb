@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Itim", cursive;
+  background-color: #fff8ea;
+  color: #9e7676;
+  margin-bottom: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+small {
+  color: #815b5b;
+}
+
+h1,
+h3,
+h5 {
+  color: #fff;
+}
+
+:root {
+  --transition: all 400ms ease;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar-custom {
+  background-color: #594545;
+  color: #fff;
+}
+
+/* ------------------ Payment ------------------ */
+
+.payment {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.row-box {
+  margin-top: 2rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #815b5b;
+  border-radius: 25px;
+}
+
+.btn-custom-2 {
+  background-color: #9e7676;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  border-radius: 25px;
+  border: 2px solid #594545;
+}
+
+.bottm-form {
+  margin-bottom: 1.5rem;
+}
+
+/* ------------------ Bank ------------------ */
+
+.bank {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.bank-number {
+  border: 2px solid #9e7676;
+  background-color: #594545;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.slip {
+  border-radius: 35px;
+}
+
+.icon {
+  text-align: left;
+}
+
+img {
+  width: 30%;
+  height: auto;
+  margin-top: 1rem;
+}
+/* ------------------ MEDIA QUERIES (MEDIUM DEVICES)------------------ */
+
+@media screen and (max-width: 768px) {
+  .row-box {
+    margin-top: 2rem;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .row-box {
+    margin-top: 2rem;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
