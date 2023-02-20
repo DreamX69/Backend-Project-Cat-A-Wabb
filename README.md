@@ -1,7 +1,7 @@
 # Backend-Project-Cat-A-Wabb
 Startup Project Cat A Wabb
 
-MEMBER
+MEMBER List
 1.นายเมธาสิทธิ์ วัชรรัตนากุล 6352300774
 2.นางสาวกมลวรรณ สำเภาจันทร์ 6352300812 
 3.นายสุรดิษ มีสกุล 6352300324
